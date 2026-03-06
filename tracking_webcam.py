@@ -27,7 +27,7 @@ colors = np.random.randint(0,255, size=(len(class_names),3 ))  #tao mau random
 tracks = []# luu vat the check duoc //#luu object dang tracking.
 
 # Khởi tạo VideoCapture để đọc từ file video
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Tiến hành đọc từng frame từ video
 while True:
